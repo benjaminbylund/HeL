@@ -23,7 +23,6 @@ public class HeL {
             if (Gissning.equals("HÖGRE")) {
                 if (Nummer < Nummer1) {
                     System.out.println("Fortsätt");
-                    //break;
                 } else if (Nummer > Nummer1) {
                     System.out.println("Du förlorade, testa igen.");
                     sp = false;
@@ -31,7 +30,6 @@ public class HeL {
             } else {//if (Gissning.equals("LÄGRE")) {
                 if (Nummer > Nummer1) {
                     System.out.println("Fortsätt");
-                    //break;
                 } else if (Nummer < Nummer1) {
                     System.out.println("Du förlorade, testa igen.");
                     sp = false;
